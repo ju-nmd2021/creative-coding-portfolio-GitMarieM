@@ -1,3 +1,4 @@
+// The following code (lines 2-70) is adapted from https://codepen.io/pixelkind/pen/JjwGQgd //
 const size = 400;
 const amount = 100;
 

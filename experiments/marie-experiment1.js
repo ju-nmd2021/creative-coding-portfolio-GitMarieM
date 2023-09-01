@@ -1,3 +1,4 @@
+//The following code (lines 2-72) is adapted from experiments/example.js by https://www.github.com/pixelkind //
 function setup() {
   createCanvas(innerWidth, innerHeight);
   background(34, 39, 46);
