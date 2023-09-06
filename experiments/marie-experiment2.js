@@ -15,10 +15,10 @@ function drawElement(counter) {
       push();
       noStroke();
       if (Math.random() < 0.8) {
-        fill(0, 0, 0, 30);
+        fill(0, 0, 0, 20);
       } else if (Math.random() > 0.95) {
         push();
-        fill(116, 15, 153, 95);
+        fill(116, 15, 153, 130);
         scale(0.6);
         rotate(6.3);
         square(x * s, y * s, s);
@@ -40,7 +40,7 @@ function drawSecondElement(counter) {
       push();
       noStroke();
       if (Math.random() < 0.9) {
-        fill(173, 125, 152, 50);
+        fill(173, 125, 152, 40);
       } else if (Math.random() < 0.5) {
         fill(72, 218, 247, 80);
         scale(0.5);
