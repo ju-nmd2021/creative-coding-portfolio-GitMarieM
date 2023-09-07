@@ -1,12 +1,23 @@
 // Testing out examples from book Generative Art //
 let positionX = innerWidth / 2;
 let positionY = innerHeight / 2;
-let speed = 0.1;
+let lastPositionX = positionX;
+let lastPositionY = positionY;
+let speed = 0.01;
+let rotation = 0;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
   background(230, 230, 230);
+  backToStartPosition(positionX, positionY, speed);
   frameRate(60);
+}
+
+function backToStartPosition(positionX, positionY, speed) {
+  if (positionX && positionY >= innerWidth && innerHeight) {
+    positionX && positionY;
+    speed = 0.01;
+  }
 }
 
 function crossHair(positionX, positionY, rotation, speed) {
@@ -32,8 +43,6 @@ function crossHair(positionX, positionY, rotation, speed) {
   pop();
 }
 
-var rotation = 0;
-
 function draw() {
   push();
   background(230, 230, 230);
@@ -42,16 +51,13 @@ function draw() {
   translate(positionX, positionY);
   crossHair(positionX, positionY, rotation, speed);
 
-  //rotation += 0.1;
-  //if (rotation > 1) {
-  // rotation = 0;
-  //}
+  rotation += 0.01;
+  if (rotation > 1) {
+    rotation += 0;
+  }
 
   positionX += distanceX * speed;
   positionY += distanceY * speed;
-  //if (positionX && positionY > innerWidth && innerHeight) {
-  //speed = -0.1;
-  //}
 
   pop();
 }
