@@ -48,9 +48,9 @@ function draw() {
 
   positionX += distanceX * speed;
   positionY += distanceY * speed;
-  if (positionX && positionY > innerWidth && innerHeight) {
-    speed = 0;
-  }
+  //if (positionX && positionY > innerWidth && innerHeight) {
+  //speed = -0.1;
+  //}
 
   pop();
 }
