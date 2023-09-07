@@ -21,5 +21,13 @@
     "description": "Trying out different values",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-GitMarieM/blob/main/experiments/marie-experiment2.js"
+  },
+
+  {
+    "file": "experiments/marie-experiment3.js",
+    "name": "Testing motion and interactivity",
+    "description": "Trying out different values",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-GitMarieM/blob/main/experiments/marie-experiment3.js"
   }
 ]
