@@ -36,6 +36,7 @@ var rotation = 0;
 
 function draw() {
   push();
+  background(230, 230, 230);
   let distanceX = mouseX - positionX;
   let distanceY = mouseY - positionY;
   translate(positionX, positionY);
