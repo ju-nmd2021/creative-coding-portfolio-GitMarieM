@@ -1,9 +1,9 @@
-body,
+/*body,
 html {
   margin: 0px auto;
 }
 
-/*@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");*/
 
 body {
   margin: 0px auto;
@@ -80,4 +80,4 @@ main section {
 a,
 a:visited {
   color: white;
-}*/
+}
