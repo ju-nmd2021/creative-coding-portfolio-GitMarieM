@@ -44,6 +44,14 @@
     "name": "Testing motion and vectors",
     "description": "Trying out different values",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-GitMarieM/blob/main/experiments/marie-experiment4.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-GitMarieM/blob/main/experiments/marie-experiment6.js"
+  },
+
+  {
+    "file": "experiments/marie-experiment7.js",
+    "name": "Testing motion and vectors",
+    "description": "Trying out different values",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-GitMarieM/blob/main/experiments/marie-experiment7.js"
   }
 ]
