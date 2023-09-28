@@ -1,3 +1,4 @@
+// Following code adapted from https://www.gorillasun.de/blog/an-introduction-to-perlin-noise-in-p5js-and-processing/
 let t = 0;
 
 function setup() {
