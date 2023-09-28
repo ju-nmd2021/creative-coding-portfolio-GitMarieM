@@ -1,13 +1,13 @@
-/*let position;
-let velocity;*/
-let movingObject;
+let position;
+let velocity;
+//let movingObject;
 
-/*let positionX = innerWidth / 2;
+let positionX = innerWidth / 2;
 let positionY = innerHeight / 2;
 let positionXSpeed = 1;
-let positionYSpeed = 3;*/
+let positionYSpeed = 3;
 
-class MovingObject {
+/*class MovingObject {
   constructor() {
     this.position = createVector(innerWidth / 2, innerHeight / 2);
     this.velocity = createVector(random(-2, 2), random(-2, 2));
@@ -33,25 +33,25 @@ class MovingObject {
       this.position.y = innerHeight;
     }
   }
-}
+}*/
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
   background(230, 230, 230);
   frameRate(60);
-  /*position = createVector(innerWidth / 2, innerHeight / 2);
-  velocity = createVector(1, 3);*/
-  movingObject = new MovingObject();
+  position = createVector(innerWidth / 2, innerHeight / 2);
+  velocity = createVector(1, 3);
+  //movingObject = new MovingObject();
 }
 
 function draw() {
   background(230, 230, 230);
 
-  movingObject(update);
+  /*movingObject(update);
   movingObject(show);
-  movingObject(checkBorders);
+  movingObject(checkBorders);*/
 
-  /*position.add(velocity);
+  position.add(velocity);
 
   if (position.x > innerWidth || position.x < 0) {
     velocity.x = velocity.x * -1;
@@ -60,9 +60,9 @@ function draw() {
   }
 
   positionX += positionXSpeed;
-  positionY += positionYSpeed;*/
+  positionY += positionYSpeed;
 
-  /*if (positionX > innerWidth || positionX < 0) {
+  if (positionX > innerWidth || positionX < 0) {
     positionXSpeed = positionXSpeed * -1;
   } else if (positionY > innerHeight || positionY < 0) {
     positionYSpeed = positionYSpeed * -1;
@@ -70,5 +70,5 @@ function draw() {
 
   stroke(0);
   fill(175);
-  circle(position.x, position.y, 16, 16);*/
+  circle(position.x, position.y, 16, 16);
 }
